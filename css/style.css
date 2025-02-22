@@ -188,6 +188,26 @@ font-size: 25px;
 
 /*portfolio*/
 
+.barra9 {
+    display: flex;
+    align-items: center; 
+    background-color: darkgreen;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+
+.immagine9 {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 30%;
+    float: left;
+    margin: 5px;
+    background-color: orange;
+    background-size: cover;
+    object-fit: contain;
+}
+
 .barra0 {
     display: flex;
     align-items: center; 
@@ -204,6 +224,8 @@ font-size: 25px;
     float: left;
     margin: 5px;
     background-color: #fff;
+    background-size: cover;
+    object-fit: contain;
 }
 
 
@@ -222,6 +244,7 @@ font-size: 25px;
     border-radius: 30%;
     float: left;
     margin: 5px;
+    
 }
 
 
@@ -240,6 +263,7 @@ font-size: 25px;
     border-radius: 30%;
     float: left;
     margin: 5px;
+    
 }
 
 
@@ -259,12 +283,14 @@ font-size: 25px;
     border-radius: 30%;
     float: left;
     margin: 5px;
+    
 }
 
     .barratesto0, 
     .barratesto1,
      .barratesto2,
-      .barratesto3 {
+      .barratesto3,
+      .barratesto9 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -276,7 +302,8 @@ font-size: 25px;
     .barratesto0, 
     .barratesto1 a,
      .barratesto2 a,
-      .barratesto3 a {
+      .barratesto3 a,
+      .barratesto9 a {
         font-size: 24px;
         margin-bottom: 10px;
  }
@@ -284,7 +311,8 @@ font-size: 25px;
     .barratesto0,
     .barratesto1 p,
      .barratesto2 p,
-      .barratesto3 p {
+      .barratesto3 p,
+      .barratesto9 p {
         font-size: 20px;
         margin: 0;
         color: #fff;
@@ -293,7 +321,8 @@ font-size: 25px;
      .barratesto0 a:hover,
      .barratesto1 a:hover,
      .barratesto2 a:hover,
-      .barratesto3 a:hover {
+      .barratesto3 a:hover,
+      .barratesto9 a:hover {
         color: yellowgreen;
     }
 
