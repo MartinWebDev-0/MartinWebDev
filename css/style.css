@@ -410,11 +410,26 @@ footer {
     height: 15px;
 }
 
+
+
+
+
+
+
+
+
+
 /* Media query  */
-@media (max-width: 600px) {
+
+@media (max-width: 800px) {
     .js-animation {
         display: none;
     }
+}
+
+
+@media (max-width: 600px) {
+   
 
     .m-sinistra {
         display: flex;
@@ -422,7 +437,7 @@ footer {
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding-left: 200px;
+        padding-left: 170px;
     }
 
     .m-sinistra h2 {
@@ -433,5 +448,12 @@ footer {
         font-size: 1em; 
     }
 
+    
+   .links {
+    display: none !important;
+        
+    }
 
+    
+    
 }
